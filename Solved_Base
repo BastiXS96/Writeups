@@ -9,7 +9,7 @@
 > Umweg über "nc 2019shell1.picoctf.com 21957 2>&1> text.txt" dann Textdatei durchsuchen
 
 
-"Whats the difference"
+"Whats the difference" ???????????????????????
 >cmd-line: cmp -l cattos.jpg kitters.jpg | gawk  '{printf "%c", strtonum(0$2)}'
 >Python: 
 #####
@@ -26,11 +26,15 @@ for i in range(min(len(kitters), len(cattos))):
 print flag
 #####
 
-
+"Flag Shop"
+##########offen###########
 
 "Where is the file"
 >ls -a
 
 
-"music"
+"music" ???zufall???
 > https://codewithrockstar.com/ - Hint hat geholfen - Google - https://www.asciitohex.com/
+
+1_wanna_b3_a_r0ck5tar
+##########offen###########
