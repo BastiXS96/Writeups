@@ -6,7 +6,7 @@
 > grep -nr 'pico' auf der shell im ordner lt. aufgabe
 
 "Plumbing"
-> 
+> Umweg über "nc 2019shell1.picoctf.com 21957 2>&1> text.txt" dann Textdatei durchsuchen
 
 
 "Whats the difference"
