@@ -3,4 +3,30 @@
 
 
 "First Grep"
->
+> grep -nr 'pico' auf der shell im ordner lt. aufgabe
+
+"Plumbing"
+> 
+
+
+"Whats the difference"
+>cmd-line: cmp -l cattos.jpg kitters.jpg | gawk  '{printf "%c", strtonum(0$2)}'
+>Python: 
+#####
+with open('./kitters.jpg', 'rb') as f:
+  kitters = f.read()
+
+with open('./cattos.jpg', 'rb') as f:
+  cattos = f.read()
+
+flag = ''
+for i in range(min(len(kitters), len(cattos))):
+  if kitters[i] != cattos[i]:
+    flag += cattos[i]
+print flag
+#####
+
+
+
+"Where is the file"
+>ls -a
