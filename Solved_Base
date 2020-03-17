@@ -28,7 +28,34 @@ print flag
 #####
 
 "Flag Shop"
-##########offen###########
+> und flag_shop musst halt wissen dass int maximal 2^32 zahlen speichern kann
+wenn du da mehr reinpackst, dann wirds negativ
+
+if(number_flags > 0){
+    int total_cost = 0;                    <---- int total cost ... maximal 2^32 speicher
+    total_cost = 900*number_flags;         <---- wenn number_flags groß ist, wird das ganze mit 900 multipliziert... das ganze schießt dann gerne mal über 2^32 drüber
+                                                 wenns drüber schießt fängts wieder bei -2^31 an... Sprich du kannst ne große negative Zahl generieren
+    printf("\nThe final cost is: %d\n", total_cost);
+    if(total_cost <= account_balance){
+        account_balance = account_balance - total_cost;         <---- dein account - - große Zahl => auf dein konto wird super viel draufgebucht
+        printf("\nYour current balance after transaction: %d\n\n", account_balance);
+    }
+    else{
+        printf("Not enough funds to complete purchase\n");
+    }
+}
+
+
+print(((1<<31)//900)*1.1)
+                      ^^ wert muss über 1 sein
+                      
+      (2^32/900)*1,5
+2624701.2
+
+
+
+
+
 
 "Where is the file"
 >ls -a
@@ -38,4 +65,5 @@ print flag
 > https://codewithrockstar.com/ - Hint hat geholfen - Google - https://www.asciitohex.com/
 
 1_wanna_b3_a_r0ck5tar
-##########offen###########
+
+> https://tcode2k16.github.io/blog/posts/picoctf-2019-writeup/general-skills/#1-wanna-b3-a-r0ck5tar
