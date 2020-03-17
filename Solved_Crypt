@@ -25,3 +25,11 @@
 "la cifra de"
 > Vigenere Code
 https://www.guballa.de/vigenere-solver
+
+
+"rsa-pop-quiz"
+RSA ... nochmal anschauen
+Writeup: https://github.com/kevinjycui/picoCTF-2019-writeup/tree/master/Cryptography/rsa-pop-quiz
+https://www.cryptool.org/de/cto-highlights/rsa-schritt-fuer-schritt
+http://umaranis.com/rsa_calculator_demo.html
+
