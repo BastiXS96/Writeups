@@ -14,3 +14,9 @@
 > alles nötige war ich ersten teil des javascripts
 var _0x5a46=['25df2}','_again_b','this','Password\x20Verified','Incorrect\x20password','getElementById','value','substring','picoCTF{','not_this'];
 Flag manuell zusammensuchen und probieren
+
+"Open-to-admins"
+Chrome Dev Console
+Cookie erstellen
+admin = true
+time = 1400
